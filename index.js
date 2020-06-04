@@ -28,7 +28,7 @@ console.log(fifaData[828]["Stage"]);
 
 function getFinals(data) {
 
-    let final = data.filter(game => game.Stage.includes("Final"));
+    let final = data.filter(game => game.Stage.includes("Finals"))
     return final;
 
     
